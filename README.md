@@ -16,7 +16,6 @@ ARM v7 Core supports multiple great features for handling exceptions and interru
 
 Micro-Coded Architecture So that interrupt stacking, entry, and exit are done automatically in hardware. Which offloads this work overhead from the CPU
 ### Processor Mode
-
 The processor mode can change when exceptions occur. And it can be in one of the following modes:
 Thread Mode: Which is entered on reset.
 Handler Mode: Which is entered on all other exceptions.
@@ -209,12 +208,12 @@ void assert_failed(uint8_t *file, uint32_t line)
 
 ## Output screen shots of proteus  :
  ### LED OFF
- ![image](https://github.com/varshasharon/EXPERIMENT-06-INTERRUPT-GENERATION-USING-PUSHBUTTON-AND-SIMULATING-THE-OUTPUT-/assets/98278161/ba07c811-25e1-4897-9954-3103fa85a6fe)
+![off](https://github.com/varshasharon/EXPERIMENT-06-INTERRUPT-GENERATION-USING-PUSHBUTTON-AND-SIMULATING-THE-OUTPUT-/assets/98278161/9b47e528-1fb9-4995-8e05-18ec5def670e)
 
 ### LED ON
-![image](https://github.com/varshasharon/EXPERIMENT-06-INTERRUPT-GENERATION-USING-PUSHBUTTON-AND-SIMULATING-THE-OUTPUT-/assets/98278161/1941dcaa-1f66-4fb7-8e8c-0fcc65b25784)
 
- 
+ ![on](https://github.com/varshasharon/EXPERIMENT-06-INTERRUPT-GENERATION-USING-PUSHBUTTON-AND-SIMULATING-THE-OUTPUT-/assets/98278161/06717d73-f54e-4208-b7ec-fe8b3823d7a8)
+
  ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
  ![image](https://github.com/varshasharon/EXPERIMENT-06-INTERRUPT-GENERATION-USING-PUSHBUTTON-AND-SIMULATING-THE-OUTPUT-/assets/98278161/8093a6e9-ef26-43f9-bc8f-b398c29d8337)
 
