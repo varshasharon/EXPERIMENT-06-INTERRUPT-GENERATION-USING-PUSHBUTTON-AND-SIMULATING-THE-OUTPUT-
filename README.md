@@ -1,5 +1,5 @@
 ```
-Nmae : E. Varsha Sharon
+Name : E. Varsha Sharon
 Register Number: 212222100058
 ```
 # EXPERIMENT-06-INTERRUPT-GENERATION-USING-PUSHBUTTON-AND-SIMULATING-THE-OUTPUT
