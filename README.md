@@ -54,13 +54,9 @@ Now each of these lines EXTI0-EXTI15 can be used to trigger an interrupt on diff
 
 9. Check for execution of the output using Push Button option.
 
-
-  
-
 ## STM 32 CUBE PROGRAM :
 ```
 #include "main.h"
-
 void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
 
@@ -171,9 +167,9 @@ void assert_failed(uint8_t *file, uint32_t line)
 #endif
 ```
 
-
 ## Output screen shots of proteus  :
  ### LED OFF
+ 
 <img src="https://github.com/varshasharon/EXPERIMENT-06-INTERRUPT-GENERATION-USING-PUSHBUTTON-AND-SIMULATING-THE-OUTPUT-/assets/98278161/9b47e528-1fb9-4995-8e05-18ec5def670e" width=450, height=450>
 
 ### LED ON
