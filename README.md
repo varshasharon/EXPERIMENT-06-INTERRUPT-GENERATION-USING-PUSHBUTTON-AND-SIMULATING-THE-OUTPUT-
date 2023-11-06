@@ -19,7 +19,9 @@ Micro-Coded Architecture So that interrupt stacking, entry, and exit are done au
 The processor mode can change when exceptions occur. And it can be in one of the following modes:
 Thread Mode: Which is entered on reset.
 Handler Mode: Which is entered on all other exceptions.
+
 <img src="https://github.com/vasanthkumarch/EXPERIMENT-06-INTERRUPT-GENERATION-USING-PUSHBUTTON-AND-SIMULATING-THE-OUTPUT-/assets/36288975/4f52f2d6-4cdb-4315-b2b2-b55dc1639c43" width=450, height=450>
+
 The STM32 ARM microcontroller interrupts are generated in the following manner:
 
 The system runs the ISR and then goes back to the main program. The NVIC and EXTI are configured. The Interrupt Service Routine (ISR) also known as the interrupt service routine handler is defined to enable the external interrupts.
@@ -37,21 +39,13 @@ One important thing to note here is that same number pins are connected to line 
 Now each of these lines EXTI0-EXTI15 can be used to trigger an interrupt on different modes of the signal : rising edge, falling edge or rising_falling edge.
 ## Procedure:
 1. Selecting GPIO Ports
-
 2. PA5 -> GPIO Output
-
 3. Configure the PC13 Port at Pull up Mode followed by generating the code.
-
 4. Write the function(Declare,Define,Call)
-
 5. Build Debug and Create 'hex file'
-
 6. Open a new Proteus Project.
-
 7. Select ports STM32F401RB, LED and Push Button.
-
 8. Connect PA5 to LED and PC13 to Push Button.
-
 9. Check for execution of the output using Push Button option.
 
 ## STM 32 CUBE PROGRAM :
